@@ -19,8 +19,8 @@ public class Main {
         System.out.print("Podaj treść: ");
         String tresc2 = scanner.nextLine();
         Notatka notatka2 = new Notatka(tytul2, tresc2);
-        notatka.wyswietlTytultresc();
-        notatka.wyswietlWszystkiePola();
+        notatka2.wyswietlTytultresc();
+        notatka2.wyswietlWszystkiePola();
 
 
     }
